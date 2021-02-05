@@ -46,7 +46,6 @@ public class Task1 {
         System.out.println("Количество четных чисел: " + countEven); // Вывод Количества четных чисел
         System.out.println("Количество нечетных чисел: " + countOdd); // Вывод Количества нечетных чисел
 
-
         int sumAllElementsArray = 0;
         for (int j : array) {
             sumAllElementsArray += j;
