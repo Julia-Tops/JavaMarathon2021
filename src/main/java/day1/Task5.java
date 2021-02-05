@@ -7,6 +7,5 @@ public class Task5 {
                     " года");
 
         }
-
     }
 }

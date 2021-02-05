@@ -8,6 +8,5 @@ public class Task4 {
                     " года");
             year += 4;
         }
-
     }
 }
