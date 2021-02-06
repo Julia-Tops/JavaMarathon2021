@@ -1,7 +1,7 @@
 package day6;
 
 
- class Motorbike {
+ public class Motorbike {
     private int year;
     private String color;
     private String model;
@@ -18,13 +18,13 @@ package day6;
         return model;
     }
 
-    public Motorbike(int year, String color, String model) {
+    public Motorbike(String model, String color, int year) {
         this.year = year;
         this.color = color;
         this.model = model;
     }
      public void info() {
-         System.out.println("Это Мотицикл");
+         System.out.println("Это мотоцикл");
      }
 
      public int yearDifference(int year) {
