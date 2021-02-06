@@ -23,4 +23,11 @@ package day6;
         this.color = color;
         this.model = model;
     }
+     public void info() {
+         System.out.println("Это Мотицикл");
+     }
+
+     public int yearDifference(int year) {
+         return this.year - year;
+     }
 }

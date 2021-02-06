@@ -28,5 +28,13 @@ class Car {
     public void setModel(String model) {
         this.model = model;
     }
+
+    public void info() {
+        System.out.println("Это автомобиль");
+    }
+
+    public int yearDifference(int year) {
+        return this.year - year;
+    }
 }
 
