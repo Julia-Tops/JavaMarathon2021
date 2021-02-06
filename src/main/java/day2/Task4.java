@@ -7,14 +7,14 @@ public class Task4 {
         double x = new Scanner(System.in).nextDouble();
         double y = 0;
         if(x >= 5) {
-            y = (Math.pow(x,2) - 10)/(x + 7);
+            y = (Math.pow(x, 2) - 10) / (x + 7);
         }
         else if(x > -3 && x < 5) {
-            y = (x + 30)*(Math.pow(x,2) - 2);
+            y = (x + 3) * (Math.pow(x, 2) - 2);
         }
         else {
             y = 420;
         }
-        System.out.print(y);
+        System.out.println(y);
     }
 }

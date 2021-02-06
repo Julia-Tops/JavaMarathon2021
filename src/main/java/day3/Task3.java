@@ -10,12 +10,14 @@ public class Task3 {
         while (count < 5) {
             Double a = scanner.nextDouble();
             Double b = scanner.nextDouble();
+
+            count++;
             if(b == 0)
             {
                 System.out.println("Деление на 0");
                 continue;
             }
-            count++;
+
             System.out.println(a/b);
         }
     }
